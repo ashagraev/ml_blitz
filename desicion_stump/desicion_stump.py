@@ -69,8 +69,6 @@ class Instances:
                 bestC = c
                 bestQ = q
 
-            lastFeature = item[0]
-
         return bestA, bestB, bestC
 
 instances = Instances()
